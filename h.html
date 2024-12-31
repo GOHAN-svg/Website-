@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix M - Gaming Equipment</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-black text-gray-300">
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <h1 class="loading-title">Matrix M</h1>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" class="hidden">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Matrix M</div>
+      <nav class="nav">
+        <a href="#">Gaming PCs</a>
+        <a href="#">Peripherals</a>
+        <a href="#">Monitors</a>
+        <a href="#">Consoles</a>
+        <a href="#">VR/AR</a>
+        <a href="#">Chairs</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <button id="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu hidden">
+      <nav>
+        <a href="#product-categories">Product Categories</a>
+        <a href="#featured-products">Featured Products</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#about-us">About Us</a>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <video autoplay loop muted playsinline class="hero-video">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay">
+        <h1>WHERE FUN FUELS FORTUNE</h1>
+        <p>Our Service is Available Only For Mobile Users</p>
+      </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="product-categories" class="section">
+      <h2 class="section-title">Product Categories</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Gaming PCs</h3>
+          <p>High-performance rigs for serious gamers.</p>
+        </div>
+        <div class="card">
+          <h3>Monitors</h3>
+          <p>Crystal-clear displays for immersive gaming.</p>
+        </div>
+        <div class="card">
+          <h3>Consoles</h3>
+          <p>The latest and greatest in console gaming.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured-products" class="section">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="grid">
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 1">
+          <h3>Gaming Chair</h3>
+          <p>Ultimate comfort for marathon gaming sessions.</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 2">
+          <h3>Mechanical Keyboard</h3>
+          <p>Precision typing for competitive gamers.</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 3">
+          <h3>VR Headset</h3>
+          <p>Step into the game with immersive VR experiences.</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section id="subscribe" class="section">
+      <h2 class="section-title">Subscribe to our Newsletter</h2>
+      <p>Stay updated with the latest deals and offers.</p>
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us" class="section">
+      <h2 class="section-title">About Us</h2>
+      <p>We are Matrix M, providing gaming optimization tools to elevate your gaming experience. Join us in creating a competitive edge for every gamer!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>© 2024 Matrix M. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
